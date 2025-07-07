@@ -1,0 +1,38 @@
+bewerbung-portfolio/
+│
+├── public/
+│   ├── resume.pdf           # Lebenslauf (optional downloadbar)
+│   └── favicon.svg          # minimalistisches Logo
+│
+├── src/
+│   ├── assets/              # Bilder, Icons, Illustrationen
+│   │   ├── avatar.png
+│   │   └── section-icons.svg
+│   │
+│   ├── components/          # Wiederverwendbare Komponenten
+│   │   ├── Header.tsx ✅
+│   │   ├── Hero.tsx ✅
+│   │   ├── About.tsx ✅
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── pages/               # Optional, falls du Routing verwendest
+│   │   ├── Home.tsx
+│   │   ├── Lebenslauf.jsx
+│   │   ├── Dokumente.jsx
+│   │   └── Kontakt.jsx
+│   │
+│   ├── styles/
+│   │   ├── variables.scss   # Deine Farbpallette
+│   │   ├── base.scss        # Reset, Body-Styles
+│   │   └── main.scss        # Hauptstyle
+│   │
+│   ├── App.tsx              # Hauptkomponente
+│   ├── main.tsx             # Einstiegspunkt (Vite)
+│   └── vite-env.d.ts
+│
+├── .gitignore
+├── index.html               # Root HTML-Datei
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
