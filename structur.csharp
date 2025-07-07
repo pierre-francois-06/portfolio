@@ -17,13 +17,13 @@ bewerbung-portfolio/
 │   │   └── Footer.tsx ✅
 │   │
 │   ├── pages/               # Optional, falls du Routing verwendest
-│   │   ├── Home.tsx
+│   │   ├── Home.tsx ✅
 │   │   ├── Lebenslauf.jsx
 │   │   ├── Dokumente.jsx
 │   │   └── Kontakt.jsx
 │   │
 │   ├── styles/
-│   │   ├── variables.scss   # Deine Farbpallette
+│   │   ├── variables.scss ✅# Deine Farbpallette
 │   │   ├── base.scss        # Reset, Body-Styles
 │   │   └── main.scss        # Hauptstyle
 │   │

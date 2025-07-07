@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "title": "Profil",
+    "content": "Ich diskutiere gern, um Lösungen zu finden, und sehe Lernen als zentrales Ziel..."
+  },
+  "education": {
+    "title": "Ausbildung",
+    "itemsObject": {
+      "institution": "DPFA-Regenbogen-Gymnasium Augustusburg",
+      "period": "2012–2025",
+      "degree": "Abitur (Note 1,9)"
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "itemsObject": {
+      "company": "Star Tankstelle, Chemnitz",
+      "role": "Verkäufer (Nebenjob)",
+      "period": "2018–2023",
+      "description": "Langfristige Mitarbeit nach Schulpraktikum..."
+    }
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "itemsArray": [
+      "Teamfähigkeit (aus dem Sport)",
+      "Visuell und haptisch orientiert perfektionistisch",
+      "Zielstrebig"
+    ]
+  },
+  "languages": {
+    "title": "Sprachen",
+    "itemsObjectArray": [
+      { "language": "Deutsch", "level": "Muttersprache" },
+      { "language": "Englisch", "level": "B2 (Abiturniveau...)" },
+      { "language": "Französisch", "level": "B1 (DELF B1...)" }
+    ]
+  },
+  "certificates": {
+    "title": "Zertifikate",
+    "itemsArray": [
+      "FreeCodeCamp – Responsive Web Design",
+      "FreeCodeCamp – JavaScript Algorithms...",
+      "DELF B1"
+    ]
+  },
+  "interests": {
+    "title": "Engagement & Interessen",
+    "itemsArray": [
+      "Streitschlichter-Ausbildung",
+      "Sport: Handball, Volleyball",
+      "Klavier"
+    ]
+  }
+}
