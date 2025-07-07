@@ -13,8 +13,8 @@ bewerbung-portfolio/
 │   │   ├── Header.tsx ✅
 │   │   ├── Hero.tsx ✅
 │   │   ├── About.tsx ✅
-│   │   ├── Contact.tsx
-│   │   └── Footer.tsx
+│   │   ├── Contact.tsx ✅
+│   │   └── Footer.tsx ✅
 │   │
 │   ├── pages/               # Optional, falls du Routing verwendest
 │   │   ├── Home.tsx
