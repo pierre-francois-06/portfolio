@@ -15,7 +15,7 @@ export const DocumentsSection = ({ data }) => {
   } else {
     link = (
       <>
-        <a href={data.link} download={`Pierre-François-${data.title}.pdf`}>
+        <a href={data.link} download>
           <button>{`📩 ${data.title}`}</button>
         </a>
       </>
