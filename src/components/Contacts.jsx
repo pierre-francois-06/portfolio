@@ -13,7 +13,7 @@ export const Contacts = () => {
           <img
             className="logo-link"
             id="email.logo"
-            src="src/assets/email.png"
+            src="../assets/email.png"
             alt="EMAIL.png"
           />
         </a>
@@ -26,7 +26,7 @@ export const Contacts = () => {
           <img
             className="logo-link"
             id="github-logo"
-            src="src/assets/github.png"
+            src="../assets/github.png"
             alt="GITHUB.png"
           />
         </a>
