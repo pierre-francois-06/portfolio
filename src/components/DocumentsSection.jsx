@@ -16,7 +16,9 @@ export const DocumentsSection = ({ data }) => {
     link = (
       <>
         <button
-          onClick={() => window.open(data.link)}
+          onClick={() =>
+            window.open(`${import.meta.env.BASE_URL}${data.link}`, "_blank")
+          }
         >{`📩 ${data.title}`}</button>
       </>
     );
