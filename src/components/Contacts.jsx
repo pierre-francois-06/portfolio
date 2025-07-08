@@ -1,3 +1,5 @@
+import "../styles/Contact.scss";
+
 export const Contacts = () => {
   return (
     <section className="contact" id="contact">
@@ -8,7 +10,12 @@ export const Contacts = () => {
           Nachricht.
         </p>
         <a href="mailto:pierrefrancois1907@gmail.com" className="contact-link">
-          pierrefrancois1907@gmail.com
+          <img
+            className="logo-link"
+            id="email.logo"
+            src="src/assets/email.png"
+            alt="EMAIL.png"
+          />
         </a>
         <a
           href="https://github.com/pierre-francois-06"
@@ -16,7 +23,12 @@ export const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          github
+          <img
+            className="logo-link"
+            id="github-logo"
+            src="src/assets/github.png"
+            alt="GITHUB.png"
+          />
         </a>
       </div>
     </section>

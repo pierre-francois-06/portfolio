@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+#about {
+  margin-top: 4rem;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 3rem 3rem 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.3rem rgba($color-surface, 1);
+
+  backdrop-filter: blur(0.1rem);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  width: 90vw;
+}
+
+#about-content {
+  h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  p {
+    line-height: 2rem;
+  }
+}

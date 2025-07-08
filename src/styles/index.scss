@@ -4,10 +4,172 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  // border: 1px solid red;
 }
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: $color-background;
   color: $color-text;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background: radial-gradient(
+    circle,
+    $color-background 0%,
+    darken($color-background, 20%) 100%
+  );
+  border-radius: 50%;
+  animation: heartbeat 1.8s ease-in-out alternate infinite;
+  z-index: -10;
+}
+
+@keyframes heartbeat {
+  0% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 100%
+    );
+  }
+  5% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 99%
+    );
+  }
+  10% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 98%
+    );
+  }
+  15% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 97%
+    );
+  }
+  20% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 96%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 95%
+    );
+  }
+  30% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 94%
+    );
+  }
+  35% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 93%
+    );
+  }
+  40% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 92%
+    );
+  }
+  45% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 91%
+    );
+  }
+  50% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 90%
+    );
+  }
+  55% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 89%
+    );
+  }
+  60% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 88%
+    );
+  }
+  65% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 87%
+    );
+  }
+  70% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 86%
+    );
+  }
+  75% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 85%
+    );
+  }
+  80% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 84%
+    );
+  }
+  85% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 83%
+    );
+  }
+  90% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 82%
+    );
+  }
+  95% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 81%
+    );
+  }
+  100% {
+    background: radial-gradient(
+      circle,
+      $color-background 0%,
+      darken($color-background, 20%) 80%
+    );
+  }
 }

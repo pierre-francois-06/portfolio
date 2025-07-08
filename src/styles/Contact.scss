@@ -1,0 +1,42 @@
+@use "variables" as *;
+
+#contact {
+  margin-top: 4rem;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 3rem 3rem 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.3rem rgba($color-surface, 1);
+
+  backdrop-filter: blur(0.1rem);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  width: 90vw;
+}
+
+#contact-content {
+  h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  p {
+    line-height: 2rem;
+  }
+
+  .logo-link {
+    margin-top: 3rem;
+    margin: 3rem 2rem 0 2rem;
+    border-radius: 50%;
+    filter: invert(60%);
+    width: 3rem;
+    box-shadow: 0 0 2rem rgba($color-text, 0.8);
+    transition: all 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 0 3rem rgba($color-text, 1);
+    }
+  }
+}

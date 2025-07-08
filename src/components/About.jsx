@@ -1,7 +1,9 @@
+import "../styles/About.scss";
+
 export const About = () => {
   return (
     <section className="about" id="about">
-      <div className="about-content">
+      <div id="about-content">
         <h2>Über mich</h2>
         <p>
           Ich bin Student der Cybersecurity mit starkem Interesse an moderner
