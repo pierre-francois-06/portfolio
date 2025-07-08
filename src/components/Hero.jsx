@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export const Hero = () => {
   return (
     <section className="hero" id="hero">
@@ -11,7 +9,7 @@ export const Hero = () => {
         <p>
           Webentwicklung{" "}
           <a
-            href="https://www.freecodecamp.org/Pierre-Francois"
+            href={`https://www.freecodecamp.org/Pierre-Francois`}
             target="_blank"
           >
             freeCodeCamp
