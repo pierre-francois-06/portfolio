@@ -9,8 +9,14 @@ export const Hero = () => {
         </h1>
         <h2>Angehender Cyber Security Student an der IU</h2>
         <p>
-          Webentwicklung <Link to="/freeCodeCamp">(freeCodeCamp)</Link> und
-          Cybersecurity – neugierig und engagiert.
+          Webentwicklung{" "}
+          <Link
+            to="https://www.freecodecamp.org/Pierre-Francois"
+            target="_blank"
+          >
+            (freeCodeCamp)
+          </Link>{" "}
+          und Cybersecurity – neugierig und engagiert.
         </p>
       </div>
     </section>
