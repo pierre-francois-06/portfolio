@@ -10,12 +10,12 @@ export const Hero = () => {
         <h2>Angehender Cyber Security Student an der IU</h2>
         <p>
           Webentwicklung{" "}
-          <Link
-            to="https://www.freecodecamp.org/Pierre-Francois"
+          <a
+            href="https://www.freecodecamp.org/Pierre-Francois"
             target="_blank"
           >
-            (freeCodeCamp)
-          </Link>{" "}
+            freeCodeCamp
+          </a>{" "}
           und Cybersecurity – neugierig und engagiert.
         </p>
       </div>
