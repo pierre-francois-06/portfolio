@@ -15,7 +15,7 @@ export const DocumentsSection = ({ data }) => {
   } else {
     link = (
       <>
-        <a href={data.link} download>
+        <a href={`${import.meta.env.BASE_URL}${data.link}`} download>
           <button>{`📩 ${data.title}`}</button>
         </a>
       </>
