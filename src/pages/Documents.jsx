@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { DocumentsSection } from "../components/DocumentsSection";
+import documentsData from "../assets/documents-data.json";
 
 export const Documents = () => {
   return (
@@ -9,7 +10,9 @@ export const Documents = () => {
       <main>
         <section className="documents-section" id="documents-section">
           <div id="documents-section-content">
-            <DocumentsSection />
+            {Object.entries(documentsData).map(([key, section]) => (
+              <DocumentsSection key={key} data={section} />
+            ))}
           </div>
         </section>
       </main>

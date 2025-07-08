@@ -1,4 +1,4 @@
-export const Contact = () => {
+export const Contacts = () => {
   return (
     <section className="contact" id="contact">
       <div id="contact-content">
@@ -9,6 +9,14 @@ export const Contact = () => {
         </p>
         <a href="mailto:pierrefrancois1907@gmail.com" className="contact-link">
           pierrefrancois1907@gmail.com
+        </a>
+        <a
+          href="https://github.com/pierre-francois-06"
+          className="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github
         </a>
       </div>
     </section>

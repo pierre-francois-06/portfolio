@@ -18,9 +18,9 @@ bewerbung-portfolio/
 │   │
 │   ├── pages/               # Optional, falls du Routing verwendest
 │   │   ├── Home.tsx ✅
-│   │   ├── Lebenslauf.jsx
-│   │   ├── Dokumente.jsx
-│   │   └── Kontakt.jsx
+│   │   ├── Lebenslauf.jsx✅
+│   │   ├── Dokumente.jsx✅
+│   │   └── Kontakt.jsx✅
 │   │
 │   ├── styles/
 │   │   ├── variables.scss ✅# Deine Farbpallette

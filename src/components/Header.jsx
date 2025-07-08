@@ -10,7 +10,7 @@ export const Header = () => {
         </Link>
         <Link to="/cv">Lebenslauf</Link>
         <Link to="/documents">Dokumente</Link>
-        <Link to="/contacts">Kontakt</Link>
+        <Link to="/contact">Kontakt</Link>
       </nav>
     </>
   );
