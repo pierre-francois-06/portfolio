@@ -47,7 +47,7 @@ export const CVSection = ({ data }) => {
 
   return (
     <section
-      className="cv-section"
+      className={`cv-${data.title.toLowerCase()}-section`}
       id={`cv-${data.title.toLowerCase()}-section`}
     >
       <div id={`${data.title.toLowerCase()}-section-content`}>{content}</div>

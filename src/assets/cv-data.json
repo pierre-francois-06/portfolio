@@ -6,18 +6,18 @@
   "education": {
     "title": "Ausbildung",
     "itemsObject": {
-      "institution": "DPFA-Regenbogen-Gymnasium Augustusburg",
-      "period": "2012–2025",
-      "degree": "Abitur (Note 1,9)"
+      "Institution": "DPFA-Regenbogen-Gymnasium Augustusburg",
+      "Zeitraum": "2012–2025",
+      "Abschluss": "Abitur (Note 1,9)"
     }
   },
   "experience": {
     "title": "Berufserfahrung",
     "itemsObject": {
-      "company": "Star Tankstelle, Chemnitz",
-      "role": "Verkäufer (Nebenjob)",
-      "period": "2018–2023",
-      "description": "Langfristige Mitarbeit nach Schulpraktikum..."
+      "Firma": "Star Tankstelle, Chemnitz",
+      "Aufgabe": "Verkäufer (Nebenjob)",
+      "Zeitraum": "2018–2023",
+      "Beschreibung": "Langfristige Mitarbeit nach Schulpraktikum..."
     }
   },
   "skills": {

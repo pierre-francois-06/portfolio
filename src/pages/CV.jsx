@@ -8,9 +8,19 @@ export const CV = () => {
     <>
       <Header />
       <main>
-        {Object.entries(cvData).map(([key, section]) => (
-          <CVSection key={key} data={section} />
-        ))}
+        <section className="cv-section" id="cv-section">
+          <div id="cv-section-content">
+            {Object.entries(cvData).map(([key, section]) => (
+              <CVSection key={key} data={section} />
+            ))}
+            <a
+              href="/documents/lebenslauf.pdf"
+              download="Pierre-François-Lebenslauf.pdf"
+            >
+              📩 Lebenslauf
+            </a>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
