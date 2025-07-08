@@ -2,22 +2,22 @@
   "lebenslauf": {
     "title": "Lebenslauf",
     "description": "Übersicht über meine schulische Laufbahn, Erfahrungen, Fähigkeiten und Qualifikationen, strukturiert auf einer Seite dargestellt.",
-    "link": "src/documents/Lebenslauf.pdf"
+    "link": "public/documents/Lebenslauf.pdf"
   },
   "abizeugnis": {
     "title": "Abitur Zeugnis",
     "description": "Abschlusszeugnis des DPFA-Regenbogen-Gymnasiums Augustusburg mit der Gesamtnote 1,9.",
-    "link": "src/documents/abizeugnis.pdf"
+    "link": "public/documents/abizeugnis.pdf"
   },
   "oberstufenZeugnisse": {
     "title": "Zeugnisse der Oberstufe",
     "description": "Schulzeugnisse der 11. und 12. Klasse mit detaillierten Leistungen in den jeweiligen Halbjahren.",
-    "link": "src/documents/oberstufenZeugnisse.pdf"
+    "link": "public/documents/oberstufenZeugnisse.pdf"
   },
   "delfFranzösischB1": {
     "title": "DELF B1 - Französisch",
     "description": "Offizielles französisches Sprachzertifikat des Niveaus B1, ausgestellt vom Institut Français.",
-    "link": "src/documents/delfb1frz.pdf"
+    "link": "public/documents/delfb1frz.pdf"
   },
   "freeCodeCamp": {
     "title": "FreeCodeCamp Zertifikation",
@@ -28,11 +28,11 @@
   "tanzschuleEmerling": {
     "title": "Das Gesellschafts Zertifikat",
     "description": "Zertifikat über den erfolgreichen Abschluss eines Gesellschaftstanzkurses (Grund- und Aufbaukurs).",
-    "link": "src/documents/tanzschuleEmmerling.pdf"
+    "link": "public/documents/tanzschuleEmmerling.pdf"
   },
   "matheolympiade": {
     "title": "64. Olympiade Junger Mathematiker",
     "description": "Teilnahme an der 64. Mathematik-Olympiade mit erfolgreicher Qualifikation auf regionaler Ebene.",
-    "link": "src/documents/matheolympiade.pdf"
+    "link": "public/documents/matheolympiade.pdf"
   }
 }
