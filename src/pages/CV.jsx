@@ -2,6 +2,7 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { CVSection } from "../components/CVSection";
 import cvData from "../assets/cv-data.json";
+import "../styles/CV.scss";
 
 export const CV = () => {
   return (
@@ -13,12 +14,15 @@ export const CV = () => {
             {Object.entries(cvData).map(([key, section]) => (
               <CVSection key={key} data={section} />
             ))}
-            <a
-              href="/documents/lebenslauf.pdf"
-              download="Pierre-François-Lebenslauf.pdf"
-            >
-              📩 Lebenslauf
-            </a>
+            <button
+              id="cv-download"
+              onClick={() =>
+                window.open(
+                  `${import.meta.env.BASE_URL}${"documents/lebenslauf1.pdf"}`,
+                  "_blank"
+                )
+              }
+            >{`📩 Lebenslauf`}</button>
           </div>
         </section>
       </main>
