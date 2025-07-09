@@ -1,4 +1,6 @@
 import "../styles/Contact.scss";
+import githubLogo from "/src/assets/github.png";
+import emailLogo from "/src/assets/email.png";
 
 export const Contacts = () => {
   return (
@@ -13,7 +15,7 @@ export const Contacts = () => {
           <img
             className="logo-link"
             id="email.logo"
-            src="../assets/email.png"
+            src={emailLogo}
             alt="EMAIL.png"
           />
         </a>
@@ -26,7 +28,7 @@ export const Contacts = () => {
           <img
             className="logo-link"
             id="github-logo"
-            src="../assets/github.png"
+            src={githubLogo}
             alt="GITHUB.png"
           />
         </a>

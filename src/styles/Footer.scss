@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+#footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+
+  justify-content: center;
+  padding: 5rem;
+
+  background: $gradient-warm;
+  box-shadow: 0 0 3rem $color-background;
+
+  width: 100vw;
+}

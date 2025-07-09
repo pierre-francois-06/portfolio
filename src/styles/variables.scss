@@ -31,7 +31,13 @@ $color-warning: #ffb74d;
 $color-info: #64b5f6;
 
 // Gradients (optional)
-$gradient-warm: linear-gradient(135deg, #d7ccc8, #ff7043);
+$gradient-warm: linear-gradient(
+  80deg,
+  rgba($color-background, 0.3) 0%,
+  rgba($color-darkest, 0) 30%,
+  rgba($color-darkest, 0) 70%,
+  rgba($color-background, 0.3) 100%
+);
 
 $graphite-dark: #2f2f2f;
 $graphite: #4a4a4a;

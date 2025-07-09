@@ -36,7 +36,8 @@
     transition: all 0.2s ease;
 
     &:hover {
-      box-shadow: 0 0 3rem rgba($color-text, 1);
+      box-shadow: 0 0 3rem rgba($color-text, 0.8);
+      transform: scale(1.2);
     }
   }
 }
