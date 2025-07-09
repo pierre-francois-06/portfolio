@@ -26,6 +26,13 @@
   }
 }
 
+#cv-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #cv-download {
   margin-top: 4rem;
   display: flex;
