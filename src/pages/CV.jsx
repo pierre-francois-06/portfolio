@@ -6,7 +6,7 @@ import "../styles/CV.scss";
 
 export const CV = () => {
   return (
-    <>
+    <div className="wrapper">
       <Header />
       <main>
         <section className="cv-section" id="cv-section">
@@ -27,6 +27,6 @@ export const CV = () => {
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };

@@ -1,0 +1,52 @@
+@use "variables" as *;
+
+.documents-section-element {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 5rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1.3rem rgba($color-surface, 1);
+
+  backdrop-filter: blur(0.1rem);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  width: 90vw;
+
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .p {
+    font-size: 1.2rem;
+  }
+}
+
+.document-link {
+  margin-top: 4rem;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+
+  justify-content: center;
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 2rem rgba($color-surface, 1);
+
+  backdrop-filter: blur(0.1rem);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  color: $color-text;
+  font-weight: 600;
+  text-shadow: 0 0 1rem rgba($color-text, 0.4);
+  transition: all 0.2s ease;
+
+  &:hover {
+    text-shadow: 0 0 1rem rgba($color-text, 1);
+    transform: scale(1.2);
+  }
+}

@@ -4,6 +4,7 @@ export const DocumentsSection = ({ data }) => {
     link = (
       <>
         <button
+          className="document-link"
           onClick={() =>
             window.open(data.link, "_blank", "noopener,noreferrer")
           }
@@ -16,6 +17,7 @@ export const DocumentsSection = ({ data }) => {
     link = (
       <>
         <button
+          className="document-link"
           onClick={() =>
             window.open(`${import.meta.env.BASE_URL}${data.link}`, "_blank")
           }
@@ -26,14 +28,14 @@ export const DocumentsSection = ({ data }) => {
 
   return (
     <section
-      className={`documents-${data.title.toLowerCase()}-section`}
+      className={`documents-section-element`}
       id={`documents-${data.title.toLowerCase()}-section`}
     >
       <h3>{data.title}</h3>
-      <div id={`${data.title.toLowerCase()}-section-content`}>
+      <div className="p" id={`${data.title.toLowerCase()}-section-content`}>
         {data.description}
       </div>
-      <>{link}</>
+      <div>{link}</div>
     </section>
   );
 };
