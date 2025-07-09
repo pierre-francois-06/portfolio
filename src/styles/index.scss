@@ -37,4 +37,8 @@ body {
   html {
     font-size: 13px;
   }
+  body {
+    min-height: 100vh;
+    margin: 2rem;
+  }
 }
